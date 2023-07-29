@@ -84,10 +84,14 @@ color: #fff;
 }
 #about img{
     border-radius: 50%;
-    float: left;
-    max-height: 400px;
-    max-width: 400px;
-    
+    height: 350px;
+    width: 350px;
+}
+
+#about_f{
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
 }
 h1{
     color: #ffbd59;
@@ -98,10 +102,10 @@ h1{
 #about p{
     width: 40%;
     color: #ffbd59;
-    float: right;
+    
     text-align: justify;
     margin-top: 50px;
-    margin-right: 80px;
+    
     padding: 20px;
     background-color: black;
     border-radius: 5px 5px;
@@ -339,6 +343,7 @@ margin-left: 8%;
 }
 
 .bx-copyright{
+    margin-top: 30px;
     padding-bottom: 20px;
 }
 @media screen and (min-width:820px) and (max-width: 1100px) {
