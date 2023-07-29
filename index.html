@@ -177,6 +177,22 @@
                       <i class='bx bxl-linkedin'></i>
                     </a>
                   </div>
+                  <div class="team_heading"><button onclick="team_disp1()">
+                  Team
+                  </button>
+                </div>
+                  <div id="tech_team_people" style="display: none;">
+                    <ul>
+                      <li>Akhil</li>
+                      <li>Anagha</li>
+                      <li>Harsh</li>
+                      <li>Mithun</li>
+                      <li>Rakesh</li>
+                      <li>Ramji</li>
+                      <li>Vartika</li>
+                      <li>Tahir</li>
+                    </ul>
+                  </div>
                 </div>
 
                 <div class="card swiper-slide">
@@ -278,6 +294,20 @@
     </section>
     
     <!-- Script  -->
+    <script>
+      var t1=0;
+      function team_disp1(){
+        if (t1==1){
+          document.getElementById("tech_team_people").style.display = "none";  
+          t1=0;
+        }
+        else{
+          document.getElementById("tech_team_people").style.display = "block";
+          t1=1;
+        }
+        
+      }
+    </script>
     <script>
       let slideIndex = 1;
   showSlides(slideIndex);

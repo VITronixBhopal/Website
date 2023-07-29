@@ -300,6 +300,24 @@ margin-left: 8%;
   .swiper-pagination-bullet-active{
     background-color: #580092;
   }
+.team_heading{
+  color: white;
+  text-align: center;
+  padding: 10px;
+  background-color: #4f17be;
+  border-radius: 0px 0px 25px 25px;
+}
+.team_heading button{
+  all: unset;
+}
+#tech_team_people{
+  padding: 10px;
+  color: black;
+  text-align: center;
+}
+#tech_team_people ul{
+  all: unset;
+}
   @media screen and (max-width:768px) {
     .slide-content{
       margin: 0 10px;
