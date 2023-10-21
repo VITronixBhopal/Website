@@ -84,7 +84,7 @@ color: #fff;
 }
 #about img{
     border-radius: 50%;
-    height: 350px;
+    height: 320px;
     width: 350px;
 }
 
@@ -103,7 +103,7 @@ h1{
     width: 40%;
     color: #ffbd59;
     
-    text-align: justify;
+    text-align: center;
     margin-top: 50px;
     
     padding: 20px;
@@ -310,12 +310,12 @@ margin-left: 8%;
 .team_heading button{
   all: unset;
 }
-#tech_team_people{
+.teams{
   padding: 10px;
   color: black;
   text-align: center;
 }
-#tech_team_people ul{
+.teams ul{
   all: unset;
 }
   @media screen and (max-width:768px) {
